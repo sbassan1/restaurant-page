@@ -1,4 +1,7 @@
 import "./styles.css";
 
+console.log("the index.js script is working!");
 
-console.log("Hello world!");
+
+
+
