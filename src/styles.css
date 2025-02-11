@@ -1,5 +1,17 @@
 /* styles.css */
-body {
-    background-color: rebeccapurple;
-  }
-  
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+
+  background-color: blueviolet;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
