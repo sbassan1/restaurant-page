@@ -15,7 +15,7 @@ class MainTitle {
         const undertitle = document.createElement("p");
         
         titleDiv.className = "title";
-        mainTitle.textContent = "ARGENTINA STEAKHOUSE CLUB";
+        mainTitle.textContent = "Argentina Steakhouse Gentlemans Club";
         undertitle.textContent = "Just the way it is.";
         
         titleDiv.appendChild(mainTitle);
@@ -27,7 +27,28 @@ class MainTitle {
 class HomeContent {
     render() {
         const homeDiv = document.createElement("div");
-        homeDiv.textContent = "HOME CONTENT IN PROGRESS";
+        homeDiv.className = "home-div";
+
+        const presentation_fieldset = document.createElement("fieldset");
+        const fieldset_title = document.createElement("legend");
+        fieldset_title.textContent = "Who are we?";
+
+        presentation_fieldset.appendChild(fieldset_title);
+        
+
+        const mission_div = document.createElement("div");
+        mission_div.className = "mission-div";
+        const mission_title = document.createElement("h2");
+        mission_title.textContent = "We want you to experience TRUE Argentinian Cuisine!";
+        const mission_txt = document.createElement("p");
+        mission_txt.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."
+
+        mission_div.appendChild(mission_title);
+        mission_div.appendChild(mission_txt);
+
+        
+        homeDiv.appendChild(presentation_fieldset);
+        homeDiv.appendChild(mission_div);
         content.appendChild(homeDiv);
     }
 }

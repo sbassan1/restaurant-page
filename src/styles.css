@@ -1,17 +1,46 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@600&family=Short+Stack&display=swap');
+
 
 body{
   margin: 0;
   padding: 0;
+
+  background-image: url("/home/santiago/odin/Fullstack Javascript Path/Javascript Course/Restaurant-Page/src/assets/cutting-board.jpg");
+  background-size:cover;
+  font-family: "Lobster", serif;
+  padding: 1em;
 }
 
 .title {
-
-  background-color: blueviolet;
+  background-color: #6CACE4;
+  color: #FFFFFF;
   border-radius: 2em;
   display: flex;
   flex-direction: column;
+  justify-self: center;
   align-items: center;
-  justify-content: center;
+  width: 45vw;
+
+  
+  text-shadow: #000 0px 0px 1px;
+  
+  padding: 1em;
+  margin: 1em;
+}
+
+.title p {
+  color: #FFB81C;
+  text-shadow: #000 0px 0px 1px;
+  font-size: larger;
+}
+
+.home-div {
+
+  background-color: #6cace4bb;
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+  gap: 2em;
 
 }
