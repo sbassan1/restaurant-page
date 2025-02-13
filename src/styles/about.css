@@ -1,0 +1,17 @@
+
+.about-div {
+
+    background-color:#54a1e4;
+    border-radius: 2em;
+    padding: 0.05em 1em 0.05em 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 0;
+  }

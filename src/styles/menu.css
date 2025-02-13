@@ -1,0 +1,30 @@
+
+
+.dishes-div {
+    display: grid;
+    background-color: #54a1e4;
+    border-radius: 2em;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    padding: 0.8em;
+    grid-template-columns: repeat(3, 420px);
+
+    justify-content: center;
+    gap: 1em;
+}
+
+.dish-card {
+    box-sizing: border-box;
+    background-color: #274f72;
+    border-radius: 1em;
+    color: white;
+}
+
+.dish-name {
+    text-align: center;
+    font-size: large;
+    color: #FFB81C;
+    text-shadow: #000 0px 0px 2px;
+
+}

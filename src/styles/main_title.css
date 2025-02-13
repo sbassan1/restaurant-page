@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+  background-image: url("/home/santiago/odin/Fullstack Javascript Path/Javascript Course/Restaurant-Page/src/assets/wooden-wood-backgrounds-textured-pattern-wallpaper-concept.jpg");
+  background-size:cover;
+  font-family: "Lora", serif;
+  padding: 1em;
+}
+
+.title {
+  background-color: #6CACE4;
+  font-family: "Lobster", serif;
+  color: #FFFFFF;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 45vw;
+
+  font-size: large;
+  text-shadow: #000 0px 0px 2px;
+
+  margin: 0.8em;
+
+  border-top: 1em solid #FFFFFF;
+  border-bottom: 1em solid #FFFFFF;
+  
+}
+
+h1, p {
+  margin: 14px;
+}
+
+.title p {
+  color: #FFB81C;
+  text-shadow: #000 0px 0px 2px;
+  font-size: larger;
+}

@@ -1,4 +1,7 @@
-import "./styles.css";
+import "./styles/main_title.css";
+import "./styles/home.css";
+import "./styles/menu.css";
+import "./styles/about.css";
 
 import { MainTitle } from "./main-title.js";
 import { HomeContent } from "./home.js";
